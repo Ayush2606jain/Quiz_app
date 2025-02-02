@@ -17,7 +17,7 @@ Landing Page
 
 
 
-
+Demo Video of the quiziffy game
 
 https://github.com/user-attachments/assets/45a773ff-d3c2-469b-84f6-6c5ee18ee1d4
 
