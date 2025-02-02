@@ -1,0 +1,78 @@
+/* Result Section */
+.result-section {
+    background: radial-gradient(circle, #1e1e2f, #13132b);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Result Card */
+.result-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.15);
+    width: 500px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Result Title */
+.result-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffffff;
+    animation: bounceIn 1s ease-in-out;
+}
+
+/* Score Text */
+.score-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+/* Percentage Text */
+.percentage-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+/* Start Over Button */
+.start-over-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(90deg, #ff8c00, #ff5733);
+    color: white;
+}
+
+.start-over-btn:hover {
+    background: linear-gradient(90deg, #ff5733, #ff8c00);
+    box-shadow: 0px 0px 12px rgba(255, 140, 0, 0.8);
+    transform: scale(1.1);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Bounce Animation */
+@keyframes bounceIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    50% { transform: scale(1.05); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}

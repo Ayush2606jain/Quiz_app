@@ -1,0 +1,119 @@
+/* Quiz Section - Ensuring Full Page Centering */
+.quiz-section {
+    background: radial-gradient(circle, #1e1e2f, #13132b);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Centered & Aesthetic Quiz Card */
+.quiz-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.15);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+
+    /* Ensures Quiz is Always Centered */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Question Text */
+.question-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Options Container - Now Centered & More Space */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centered Horizontally */
+    width: 100%;
+    gap: 15px; /* Increased spacing between options */
+}
+
+/* Option Buttons */
+.option-btn {
+    width: 80%; /* Increased width for better spacing */
+    max-width: 600px; /* Prevents it from being too wide on big screens */
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+}
+
+/* Hover Effect */
+.option-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Correct & Wrong Answer Styling */
+.correct {
+    background: linear-gradient(90deg, #32cd32, #228b22);
+    color: white;
+}
+
+.wrong {
+    background: linear-gradient(90deg, #ff4c4c, #b22222);
+    color: white;
+}
+
+/* Result Message */
+.result-message {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Next Button */
+.next-btn {
+    margin-top: 20px;
+    padding: 14px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(90deg, #ff8c00, #ff5733);
+    color: white;
+}
+
+.next-btn:hover {
+    background: linear-gradient(90deg, #ff5733, #ff8c00);
+    box-shadow: 0px 0px 12px rgba(255, 140, 0, 0.8);
+    transform: scale(1.1);
+}
+
+/* Score Display */
+.score-text {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
