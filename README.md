@@ -113,5 +113,5 @@ Let me know if you need **any modifications!** 🎯✨
 
 Landing Page
 
-![Image](https://github.com/user-attachments/assets/f6aec2fd-007c-4c43-b2c0-a82d9e0b2820)
+![image alt](https://github.com/Ayush2606jain/Quiz_app/blob/428b08ccd9b88bf8d23c707123467b2f6022a4af/Screenshot%202025-02-02%20123832.png)
 
