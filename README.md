@@ -108,3 +108,9 @@ This project is licensed under the MIT License.
 Now your **GitHub project will look professional and impressive!** 🚀🔥  
 Let me know if you need **any modifications!** 🎯✨
 
+
+
+
+Landing Page
+
+![image alt](https://github.com/Ayush2606jain/Quiz_app/blob/186bccb665702e3a241924656af772eba7ac687c/Screenshot%202025-02-02%20123832.png)
